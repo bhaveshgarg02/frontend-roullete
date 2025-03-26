@@ -1,0 +1,1156 @@
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.dashboard-container p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.dashboard-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard-container li {
+  margin: 10px 0;
+}
+
+.dashboard-container a {
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 1.1rem;
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #f0f8ff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+}
+
+.dashboard-container a:hover {
+  background-color: #cce7ff;
+  color: #005bb5;
+  transform: translateY(-2px);
+}
+
+.dashboard-container a:active {
+  transform: translateY(1px);
+}
+/* Styling for the modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000 !important;
+}
+
+.modal-content-main {
+  background: white !important;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px !important;
+  max-width: 100%;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+table button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+}
+
+table button:hover {
+  background-color: #ccc;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* General Styling */
+.users-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.btn {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #f98866;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #ff9800;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-success {
+  background-color: #f98866;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #9e9e9e;
+  color: white;
+}
+
+button {
+  margin-right: 10px;
+}
+
+/* Table Styling */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f6f9fe !important;
+}
+
+.user-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Modal Styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content-main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.modal-content-main h3 {
+  margin-top: 0;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form input {
+  width: 90%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 48%;
+  margin-right: 4%;
+}
+
+form button[type="submit"] {
+  background-color: #f98866;
+}
+
+form button[type="button"] {
+  background-color: #9e9e9e;
+}
+
+form button:hover {
+  opacity: 0.9;
+}
+
+/* index.css */
+
+.dashboard-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f6f9fe;
+}
+
+tr:hover {
+  background-color: #ccc;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f6f9fe !important;
+  color: black;
+}
+
+button {
+  background-color: #f98866; /* Green background */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center !important;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 5px !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease !important;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #45a049; /* Slightly darker green */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Style for the cancel button */
+button[type="button"] {
+  background-color: #f44336; /* Red background for cancel */
+}
+
+button[type="button"]:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
+
+/* Modal-specific buttons */
+.modal-content-main button {
+  width: 100%; /* Full width inside the modal */
+  margin-top: 10px;
+  font-size: 1.1rem;
+  padding: 12px;
+}
+
+button[type="submit"] {
+  background-color: #f98866; /* Green for submit */
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Slightly darker green for submit */
+}
+
+/* Add New User button */
+button[type="button"]:first-of-type {
+  margin-top: 20px;
+  background-color: #008cba; /* Blue for Add New User */
+  font-size: 1rem;
+  padding: 12px 20px;
+}
+
+button[type="button"]:first-of-type:hover {
+  background-color: #007bb5; /* Darker blue on hover */
+}
+
+/* Table buttons (Edit, Delete) */
+table button {
+  background-color: #f98866; /* Green color for Edit button */
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 0 5px; /* Space between the buttons */
+}
+
+/* Edit Button Style */
+.edit-btn {
+  background-color: #008cba !important; /* Blue background for Edit */
+}
+
+table button.edit-btn:hover {
+  background-color: #007bb5; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Delete Button Style */
+table button.delete-btn {
+  background-color: #f44336; /* Red background for Delete */
+}
+
+table button.delete-btn:hover {
+  background-color: #e53935; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Style for the label */
+label {
+  display: block; /* Ensures label takes up full width */
+  font-size: 16px;
+  font-weight: 600; /* Bold label */
+  color: #333; /* Dark text color */
+  margin-bottom: 8px; /* Space between label and select */
+}
+
+/* Style for the select dropdown */
+select {
+  /* Full width of the container */
+  padding: 5px 10px; /* Padding inside the dropdown */
+  font-size: 16px; /* Text size */
+  border: 2px solid #ccc; /* Light border color */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  color: #333; /* Dark text color */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Style for the select dropdown on focus (when clicked) */
+select:focus {
+  border-color: #f98866; /* Green border on focus */
+  box-shadow: 0 0 5px rgba(72, 133, 237, 0.6); /* Light blue shadow */
+  outline: none; /* Remove the default focus outline */
+}
+
+/* Optional: Style for the select options */
+select option {
+  padding: 10px;
+  background-color: #fff; /* White background for options */
+  color: #333; /* Dark text color */
+  font-size: 16px; /* Adjust font size */
+}
+
+/* Optional: Hover effect for the options */
+select option:hover {
+  background-color: #f1f1f1; /* Light gray on hover */
+}
+
+/* General page styling */
+body .login {
+  margin: -20px;
+  font-family: "Arial", sans-serif; 
+  background: linear-gradient(135deg, #6e7bff, #7c3aed);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-box label {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.login-box input,
+.login-box select {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.login-box input:focus,
+.login-box select:focus {
+  border-color: #7c3aed;
+  outline: none;
+}
+
+.login-box .login-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-box .login-btn:hover {
+  background-color: #6e7bff;
+}
+
+.login-box select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23ccc%22%20d%3D%22M7%207l5%205l5-5%22%2F%3E%3C%2Fsvg%3E")
+    no-repeat right 10px center;
+  background-size: 12px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #45a049;
+}
+
+.mt-2 {
+  margin-bottom: 1rem;
+}
+
+.mobile-code {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the country code and mobile number fields */
+}
+
+.country-code-select {
+  width: 60px !important; /* Country code dropdown width */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.mobile-number-input {
+  flex: 1; /* The mobile number input will take the remaining space */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.tabs button {
+  background-color: #f1f1f1;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* .tabs button:hover {
+  background-color: #ddd;
+} */
+
+.tabs button.active {
+  background-color: #007bff; /* Active tab color */
+  color: white;
+  font-weight: bold;
+  border-bottom: 2px solid #0056b3; /* Highlight active tab */
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+/* General modal overlay style */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal content box */
+.modal-content-main {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Label styling */
+.modal-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Input field styling */
+.amount-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button styles */
+.submit-button,
+.cancel-button {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.submit-button:hover,
+.cancel-button:hover {
+  opacity: 0.8;
+}
+
+/* Approve button in the table */
+
+.approve-button:hover {
+  opacity: 0.8;
+}
+
+.white {
+  color: white !important;
+  font-weight: 700;
+  font-size: 24px !important;
+}
+/* Sidebar Collapse Styles */
+
+
+.sidebar.collapsed {
+  width: 60px;
+  overflow-x: hidden; /* Adjust width when collapsed */
+}
+
+.sidebar.collapsed .sidebar-logo .logo-header .white {
+  display: none !important; /* Hide logo text when collapsed */
+}
+.sidebar.collapsed .logo-header {
+  display: none;
+}
+.sidebar.collapsed .sidebar-content .nav-item p {
+  display: none; /* Hide text when collapsed */
+}
+
+.sidebar.collapsed .sidebar-content .nav-item i {
+  margin-right: 0; /* Adjust icon margin when collapsed */
+}
+.sidebar.collapsed .logo-header{
+  height: 70px !important;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  right: -15px;
+  top: 10px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10000;
+  overflow-x: hidden !important;
+}
+
+/* Sidebar Toggle Button */
+.sidebar-toggle {
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10000;
+  font-size: 1.4rem; /* Adjust size as needed */
+  background-color: transparent !important;
+  overflow-x: hidden;
+}
+
+
+/* Ensure the button is visible when sidebar is collapsed */
+.sidebar.collapsed .sidebar-toggle {
+  right: -20px; /* Adjust position for collapsed state */
+}
+
+.collapsed .nav{
+  margin-top: 70px !important;
+}
+
+.collapsed .sidebar-toggle{
+  left: -10px;
+  background-color: transparent;
+}
+
+.collapsed .main-panel{
+  width: calc(100% - 80px) !important;
+}
+
+/* Add this to your CSS */
+.nav-link.active {
+  background-color: rgba(0, 0, 0, 0.16); /* Highlight color */
+  
+}
+.nav-link.active i{
+  color: #6861ce !important;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+select, input[type="text"] {
+  margin: 5px;
+  padding: 5px;
+  font-size: 14px;
+}
+.dropdown-list {
+  position: absolute;
+  border: 1px solid #ccc;
+  background-color: white;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 20%;
+  list-style: none;
+  padding: 0;
+  margin-top: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.dropdown-list li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-list li:hover {
+  background-color: #f1f1f1;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+}
+.page{
+  margin-top: 5px;
+}
+
+
+
+/* Add the sliding animation styles */
+.notice-container {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 9999;
+  transform: translateY(-100%); /* Initially hidden */
+  transition: transform 0.5s ease-in-out; /* Animate the sliding effect */
+}
+/* Add the sliding animation styles for continuous scrolling */
+.notice-container {
+  left: 100%; /* Start off-screen on the right */
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 99;
+  white-space: nowrap; /* Prevent text wrapping */
+  animation: slideNotice 10s linear infinite; /* Continuous animation */
+}
+
+/* Define the keyframe animation for sliding */
+@keyframes slideNotice {
+  0% {
+    left: 100%; /* Start from the right edge */
+  }
+  100% {
+    left: -100%; /* Move to the left edge and exit */
+  }
+}
+
+.notice-message {
+  margin: 0;
+}
+
+
+
+/* HEADER STYLES */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px; /* Adjust height */
+  background-color:transparent;
+  color: #1A2035;
+  display: flex;
+  justify-content: flex-end; /* Push items to the right */
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000; /* Keep it above content */
+}
+
+/* Notification and Profile Container */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds space between icon & profile */
+}
+
+/* Notification Icon */
+.notification-icon {
+  font-size: 22px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.notification-icon:hover {
+  color: #1a2035;
+}
+
+/* Profile Section */
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-section:hover {
+  color: #1a2035;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1A2035;
+  margin-right: 10px;
+}
+
+.logout-icon {
+  font-size: 22px;
+  cursor: pointer;
+  padding: 0px;
+  color: #1A2035;
+}
+
+.logout-icon:hover {
+  color: #e74c3c;
+}
+
+.notification-icon {
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.notification-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 1px 6px;
+}
+
+.notification-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 450px;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  max-height: 600px; /* Set a max height for the dropdown */
+  overflow-y: auto; /* Enable scrolling when content overflows */
+}
+
+/* Notification List */
+.notification-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 500px; /* Limit list height (adjust as needed) */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Custom Scrollbar */
+.notification-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.notification-list::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.notification-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notification-item {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.unread {
+  background: #f8f9fa;
+}
+
+.mark-read-btn, .mark-all-read {
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+
+
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+
+.notification-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.notification-item:hover {
+  background: #ececec;
+}
+
+.unread {
+  font-weight: bold;
+}
+
+.notification-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.notif-type {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  width: 40%;
+}
+
+.notif-type.buy-coin-request {
+  background: #ff9800;
+  color: white;
+}
+
+.notif-type.withdrawal-coin-request {
+  background: #4caf50;
+  color: white;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+  color: #888;
+}
+
+
+.no-notifications {
+  text-align: center;
+  color: gray;
+  padding: 10px;
+}
+
+
+.notification-item {
+  display: flex;
+  align-items: center;
+  position: relative; /* Enables absolute positioning for child elements */
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.notification-item:hover {
+  background: #ececec;
+}
+
+/* Close button on top-right */
+.close-btn {
+  position: absolute;
+  top: -5px;
+  right: 8px;
+  background: none;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  color: #888;
+}
+
+.close-btn:hover {
+  color: red;
+}
